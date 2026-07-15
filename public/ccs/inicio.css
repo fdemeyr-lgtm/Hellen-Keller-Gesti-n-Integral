@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+
+}
+
+.contenedor-login h1 {
+    margin-top: 0;
+    padding-top: 40px;
+
+}
+
+.contenedor-login img {
+    width: 30px;
+    margin-left: auto;
+    position: relative;
+    top: -30px;
+
+}
+
+.contenedor-login .campo,
+.contenedor-login .password,
+.contenedor-login .cuadro-verificacion {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.contenedor-login input {
+    display: block;
+    margin: 0 auto;
+    width: 240px;
+}
+
+.contenedor-login button {
+    display: block;
+    margin: 15px auto;
+}
+
+.contenedor-login label {
+    display: block;
+    text-align: center;
+}
+
+.cuadro-verificacion {
+    text-align: center;
+    background-color: rgb(238, 227, 227);
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 300px;
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 10px 10px;
+    transition: all 0.15s;
+}
+
+.cuadro-verificacion:hover {
+    background-color: rgb(131, 120, 120);
+    border-color: #999;
+}
+
+.cuadro-verificacion:active {
+    transform: scale(0.99);
+}
+
+button {
+    background-color: rgb(70, 196, 70);
+    width: 150px;
+    border-radius: 15%;
+}
+
+button:hover {
+    background-color: rgb(131, 128, 128);
+    border-color: #999;
+}
+
+.contenedor-login {
+    display: flex;
+    gap: 5px;
+    text-align: center;
+    flex-direction: column;
+}
+
+.cuadro-verificacion img {
+
+    position: absolute;
+    right: 310px;
+    top: 30%;
+}
+
+.icono-flecha img {
+    margin-right: 200px;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+main {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 30px 20px;
+    flex: 1 1 auto
+}
+
+footer {
+    width: 100%;
+    padding: 25px 20px;
+    box-sizing: border-box;
+    margin: 0;
+
+
+
+}
